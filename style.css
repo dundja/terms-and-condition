@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: darkcyan;
+    color: whitesmoke;
+}
+
+.header {
+    margin: 30px 0 0 0;
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.p {
+    background: tomato;
+    transition: all 1s ease-in-out;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.img {
+    transition: all .7s ease-in-out;
+}
+
+#content {
+    padding: 0 10px;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    height: 0;
+}
